@@ -16,4 +16,5 @@ spec:
       - name: app-demo
         image: quay.io/openshift/origin-hello-openshift
         ports:
+        - name: http
         - containerPort: 80
